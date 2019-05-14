@@ -1,0 +1,14 @@
+.hero{
+    color:white;
+    padding: 20px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+}
+.hero h2{
+    margin-top: 5vh;
+}
+.hero section{
+    margin-top: 5vh;
+}
