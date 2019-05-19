@@ -1,0 +1,44 @@
+.shop{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shop h2{
+    font-size: 2.4rem;
+    color:rgb(230, 230, 230);
+    margin: 5vh 0;
+}
+.shop section{
+    background-color: rgba(19, 19, 19, 0.4);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+.card{
+    flex-basis: 25%;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(100, 100, 100, 0.1);
+    border: 2px solid rgba(110, 110, 110, 0.1);
+    color:rgb(236, 236, 236);
+    cursor: pointer;
+    transition: .3s;
+    font-size: .8rem;
+}
+.card:hover {
+    background-color: rgba(117, 117, 117, 0.35);
+    border: 2px solid rgba(129, 129, 129, 0.45);
+}
+.card span{
+    margin-top: 5px;
+}
+.card img{
+    margin-bottom: 10px;
+    height: 7rem;
+}

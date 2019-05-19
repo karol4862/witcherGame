@@ -36,7 +36,7 @@ a{
     background-size: cover;
     background-position: center;
     border-radius: 5px;
-    box-shadow: 0 0 5px 5px rgb(46, 64, 73);
+    box-shadow: 0 0 5px  rgb(46, 64, 73);
     transition: .3s;
 }
 
@@ -63,13 +63,16 @@ a:nth-child(3){
 }
 a:hover{
     background-color: rgb(94, 170, 202);
-    box-shadow: 0 0 10px 10px rgb(86, 127, 148);
+    box-shadow: 0 0 5px 5px rgb(86, 127, 148);
     color:rgb(24, 35, 39);
     text-shadow: 0 0 1px rgb(74, 119, 138);
 }
 a.active{
     background-color: rgb(94, 170, 202);
-    box-shadow: 0 0 10px 10px rgb(86, 127, 148);
+    box-shadow: 0 0 5px 5px rgb(86, 127, 148);
     color:rgb(24, 35, 39);
     text-shadow: 0 0 1px rgb(74, 119, 138);
+}
+main{
+    font-family: 'Fira Sans', sans-serif;
 }

@@ -8,7 +8,41 @@
 }
 .hero h2{
     margin-top: 5vh;
+    font-size: 2rem;
 }
 .hero section{
+    height: 25vh;
     margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgba(20, 20, 20, 0.5);
+    min-width: 50%;
+    box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.55);
+    transition: .3s;
+    transform: translate(0, 0);
+}
+.hero section:hover{
+    box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.55);
+    background-color: rgba(10, 10, 10, 0.6);
+    transform: translate(3px, -3px);
+}
+.hero section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.4rem;
+}
+.hero section div span{
+    border-bottom: 2px solid rgba(112, 112, 112, 0.6);
+    padding: 5px;
+    transition: .3s;
+}
+.hero section:hover div span{
+    border-bottom-color:rgba(187, 187, 187, 0.7);
+}
+.hero section img{  
+    min-height: 100%;
+    margin-right: 20px;
+    padding: 5px;
 }
