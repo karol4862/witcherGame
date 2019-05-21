@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import Hero from './pages/Hero';
 import Shop from './pages/Shop';
+import Order from './pages/Order';
 
 
 class App extends Component {
@@ -41,14 +42,15 @@ class App extends Component {
         <div className="App">
           <nav>
             <ul>
-              <NavLink to="/" exact><li></li></NavLink>
-              <NavLink to="/shop"><li>Gold: {this.state.gold}</li></NavLink> 
-              <NavLink to="/adventure"><li></li></NavLink> 
+              <NavLink to="/" exact className="buttonMenu"><li></li></NavLink>
+              <NavLink to="/shop" className="buttonMenu"><li>Gold: {this.state.gold}</li></NavLink> 
+              <NavLink to="/order" className="buttonMenu"><li></li></NavLink> 
             </ul>
             
           </nav>
           <Route path="/" exact render= {()=> <Hero state = {this.state}/>}/>
           <Route path="/shop"  render= {()=> <Shop handleCardItem = {this.handleCardItem}/>}/>
+          <Route path="/order" exact render = {()=> <Order />}/>
         </div>
       </Router>
     );

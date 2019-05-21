@@ -11,6 +11,7 @@
 }
 .shop section{
     background-color: rgba(19, 19, 19, 0.4);
+    box-shadow: 5px 5px 5px rgba(10, 10, 10, 0.3);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -19,7 +20,7 @@
 }
 .card{
     flex-basis: 25%;
-    margin: 5px;
+    margin: 5px 5px 15px 5px;
     padding: 10px;
     display: flex;
     flex-direction: column;
