@@ -36,6 +36,12 @@ class App extends Component {
     }
     else alert("Not enought gold")
   }
+
+  getPrize = (prize) => {
+    this.setState(prevState => ({
+      gold: prevState.gold + prize
+    }))
+  }
   render() {
     return (
       <Router>
@@ -50,7 +56,7 @@ class App extends Component {
           </nav>
           <Route path="/" exact render= {()=> <Hero state = {this.state}/>}/>
           <Route path="/shop"  render= {()=> <Shop handleCardItem = {this.handleCardItem}/>}/>
-          <Route path="/order" exact render = {()=> <Order />}/>
+          <Route path="/order" render={() => <Order witcher = {this.state} getPrize = {this.getPrize}/>}/>
         </div>
       </Router>
     );
