@@ -8,7 +8,7 @@ class Order extends Component {
     monsters = [
         {
             name: "Foglet",
-            dmg: 45,
+            dmg: 80,
             icon: "https://thewitcher3.wiki.fextralife.com/file/The-Witcher-3/foglet_icon.jpg",
             prize: 150,
             img: "https://thewitcher3.wiki.fextralife.com/file/The-Witcher-3/foglet.jpg",
@@ -16,51 +16,51 @@ class Order extends Component {
         },
         {
             name: "Ghoul",
-            dmg: 30,
+            dmg: 55,
             icon: "https://thewitcher3.wiki.fextralife.com/file/The-Witcher-3/ghoul_icon.jpg",
             prize: 80,
             img: "https://thewitcher3.wiki.fextralife.com/file/The-Witcher-3/ghoul.jpg",
-            hp: 450
+            hp: 550
         },
         {
             name: "Werewolf",
-            dmg: 50,
+            dmg: 95,
             icon: "https://thewitcher3.wiki.fextralife.com/file/The-Witcher-3/werewolf_icon.jpg",
             prize: 180,
             img: "https://thewitcher3.wiki.fextralife.com/file/The-Witcher-3/werewolf.jpg",
-            hp: 450
+            hp: 700
         },
         {
             name: "Griffin",
-            dmg: 65,
+            dmg: 130,
             icon: "https://thewitcher3.wiki.fextralife.com/file/The-Witcher-3/griffin_icon.jpg",
             prize: 230,
             img: "https://thewitcher3.wiki.fextralife.com/file/The-Witcher-3/griffin.jpg",
-            hp: 450
+            hp: 650
         },
         {
             name: "Woodland Spirit",
-            dmg: 55,
+            dmg: 150,
             icon: "https://thewitcher3.wiki.fextralife.com/file/The-Witcher-3/leshen_icon.jpg",
             prize: 210,
             img: "https://thewitcher3.wiki.fextralife.com/file/The-Witcher-3/leshen.jpg",
-            hp: 450
+            hp: 850
         },
         {
             name: "Fiend",
-            dmg: 130,
+            dmg: 155,
             icon: "https://thewitcher3.wiki.fextralife.com/file/The-Witcher-3/fiend_icon.jpg",
             prize: 250,
             img: "https://thewitcher3.wiki.fextralife.com/file/The-Witcher-3/fiend.jpg",
-            hp: 450
+            hp: 780
         },
         {
             name: "Wyvern",
-            dmg: 90,
+            dmg: 100,
             icon: "https://thewitcher3.wiki.fextralife.com/file/The-Witcher-3/wyvern_icon.jpg",
             prize: 120,
             img: "https://thewitcher3.wiki.fextralife.com/file/The-Witcher-3/wyvern.jpg",
-            hp: 450
+            hp: 670
         },
         {
             name: "Basilisk",
@@ -68,7 +68,7 @@ class Order extends Component {
             icon: "https://thewitcher3.wiki.fextralife.com/file/The-Witcher-3/basilisk_icon.jpg",
             prize: 200,
             img: "https://thewitcher3.wiki.fextralife.com/file/The-Witcher-3/basilisk.jpg",
-            hp: 450
+            hp: 740
         }
     ]
     render() {

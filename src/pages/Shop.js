@@ -26,7 +26,7 @@ class Shop extends Component {
             type: "sword",
             dmg: 30,
             img: "https://vignette.wikia.nocookie.net/witcher/images/9/9e/Weapons_Mahakaman_rune_sihill.png/revision/latest?cb=20170504203531",
-            cost: 350
+            cost: 450
           },
           {
             id:5,
@@ -34,7 +34,7 @@ class Shop extends Component {
             dmg: 45,
             type: "sword",
             img: "https://vignette.wikia.nocookie.net/witcher/images/e/e9/Weapons_Illegal_Sword.png/revision/latest?cb=20170504204011",
-            cost: 550
+            cost: 720
           },
           {
             id:6,
@@ -42,7 +42,7 @@ class Shop extends Component {
             dmg: 65,
             type: "sword",
             img: "https://vignette.wikia.nocookie.net/witcher/images/b/b8/Weapons_ardaeyne.png/revision/latest?cb=20170504204300",
-            cost: 850
+            cost: 1350
           },
           {
             id:7,
@@ -50,7 +50,7 @@ class Shop extends Component {
             armor: 40,
             type: "armor",
             img: "https://vignette.wikia.nocookie.net/witcher/images/2/22/Tw3_ursine_armor_enhanced.png/revision/latest?cb=20151008143436",
-            cost: 350
+            cost: 515
           },
           {
             id:8,
@@ -58,7 +58,7 @@ class Shop extends Component {
             armor: 55,
             type: "armor",
             img: "https://vignette.wikia.nocookie.net/witcher/images/f/fd/Tw3_ursine_armor_superior.png/revision/latest?cb=20151008151740",
-            cost: 550
+            cost: 820
           },
           {
             id:9,
@@ -66,7 +66,7 @@ class Shop extends Component {
             armor: 75,
             type: "armor",
             img: "https://vignette.wikia.nocookie.net/witcher/images/9/93/Tw3_ursine_armor_mastercrafted.png/revision/latest?cb=20151008153808",
-            cost: 800
+            cost: 1150
           },
           {
             id:10,
@@ -74,7 +74,7 @@ class Shop extends Component {
             armor: 95,
             type: "armor",
             img: "https://vignette.wikia.nocookie.net/witcher/images/0/0a/Tw3_armor_bear_armor_4.png/revision/latest?cb=20160531143958",
-            cost: 1100
+            cost: 1500
           }
         ]
     }

@@ -4,11 +4,12 @@ import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import Hero from './pages/Hero';
 import Shop from './pages/Shop';
 import Order from './pages/Order';
+import './styles/RWD.css';
 
 
 class App extends Component {
   state = {
-    gold: 1000,
+    gold: 350,
     armor: {
       id:1,
       name: "Ursine armor",
@@ -46,6 +47,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+          <div className="blockPage"> Rotate your device <br/> <i className="fas fa-sync-alt"></i></div>
           <nav>
             <ul>
               <NavLink to="/" exact className="buttonMenu"><li></li></NavLink>
