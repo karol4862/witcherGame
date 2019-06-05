@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/witcherGame/static/css/main.9b048ac2.chunk.css",
+    "main.js": "/witcherGame/static/js/main.936410c4.chunk.js",
+    "main.js.map": "/witcherGame/static/js/main.936410c4.chunk.js.map",
+    "runtime~main.js": "/witcherGame/static/js/runtime~main.3f13aaed.js",
+    "runtime~main.js.map": "/witcherGame/static/js/runtime~main.3f13aaed.js.map",
+    "static/js/2.4af1e388.chunk.js": "/witcherGame/static/js/2.4af1e388.chunk.js",
+    "static/js/2.4af1e388.chunk.js.map": "/witcherGame/static/js/2.4af1e388.chunk.js.map",
+    "index.html": "/witcherGame/index.html",
+    "precache-manifest.fe038fd084210b343fd8bc7093b3ad67.js": "/witcherGame/precache-manifest.fe038fd084210b343fd8bc7093b3ad67.js",
+    "service-worker.js": "/witcherGame/service-worker.js",
+    "static/css/main.9b048ac2.chunk.css.map": "/witcherGame/static/css/main.9b048ac2.chunk.css.map",
+    "static/media/App.css": "/witcherGame/static/media/witcherpic.a91d0f96.jpg",
+    "static/media/Battle.css": "/witcherGame/static/media/sword.cc89f9cb.png"
+  }
+}
