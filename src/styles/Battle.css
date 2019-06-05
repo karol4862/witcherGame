@@ -17,6 +17,7 @@
     font-size: 1.5rem;
     color:white;
     position: relative;
+    padding: 0 10px;
 }
 .battle section img{
     max-height: 50%;

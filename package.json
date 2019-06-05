@@ -2,7 +2,7 @@
   "name": "witchergame",
   "version": "0.1.0",
   "private": true,
-  "homepage": " https://karol4862.github.io/witcherGame",
+  "homepage": "https://karol4862.github.io/witcherGame",
   "dependencies": {
     "react": "^16.8.6",
     "gh-pages": "^2.0.1",
