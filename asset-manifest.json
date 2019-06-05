@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/witcherGame/static/css/main.be5dfae1.chunk.css",
+    "main.css": "/witcherGame/static/css/main.3ee850af.chunk.css",
     "main.js": "/witcherGame/static/js/main.03463be7.chunk.js",
     "main.js.map": "/witcherGame/static/js/main.03463be7.chunk.js.map",
     "runtime~main.js": "/witcherGame/static/js/runtime~main.3f13aaed.js",
@@ -8,9 +8,9 @@
     "static/js/2.b8351981.chunk.js": "/witcherGame/static/js/2.b8351981.chunk.js",
     "static/js/2.b8351981.chunk.js.map": "/witcherGame/static/js/2.b8351981.chunk.js.map",
     "index.html": "/witcherGame/index.html",
-    "precache-manifest.204725dac9fd0adb08a85f72a065340c.js": "/witcherGame/precache-manifest.204725dac9fd0adb08a85f72a065340c.js",
+    "precache-manifest.02f39460f551c5b6090a3a13ae942330.js": "/witcherGame/precache-manifest.02f39460f551c5b6090a3a13ae942330.js",
     "service-worker.js": "/witcherGame/service-worker.js",
-    "static/css/main.be5dfae1.chunk.css.map": "/witcherGame/static/css/main.be5dfae1.chunk.css.map",
+    "static/css/main.3ee850af.chunk.css.map": "/witcherGame/static/css/main.3ee850af.chunk.css.map",
     "static/media/App.css": "/witcherGame/static/media/witcherpic.a91d0f96.jpg",
     "static/media/Battle.css": "/witcherGame/static/media/sword.cc89f9cb.png"
   }
