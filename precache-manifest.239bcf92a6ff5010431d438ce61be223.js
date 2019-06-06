@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f5fceb8e11a52e0dbc3bc3b9f8a0379",
+    "revision": "010cf7a73bb752c503ad2cbd36734030",
     "url": "/witcherGame/index.html"
   },
   {
-    "revision": "c62b22909268af5d8847",
-    "url": "/witcherGame/static/css/main.3ee850af.chunk.css"
+    "revision": "97f5c6eca4dea19f7df5",
+    "url": "/witcherGame/static/css/main.89ed025f.chunk.css"
   },
   {
     "revision": "9104439c9a39f5f88451",
     "url": "/witcherGame/static/js/2.b8351981.chunk.js"
   },
   {
-    "revision": "c62b22909268af5d8847",
+    "revision": "97f5c6eca4dea19f7df5",
     "url": "/witcherGame/static/js/main.03463be7.chunk.js"
   },
   {
